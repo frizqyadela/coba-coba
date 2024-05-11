@@ -5,4 +5,4 @@ const db = new Sequelize('coba_db', 'root', '', {
     dialect: "mysql"
 });
 
-export default db;
+module.exports = db;
